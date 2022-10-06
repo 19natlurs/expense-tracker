@@ -1,0 +1,51 @@
+.balance {
+    /* border: 1px solid orangered; */
+    height: 8%;
+}
+
+.balance p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.money {
+    /* border: 1px solid green; */
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+
+}
+
+.money>div {
+
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    margin: auto
+}
+
+.income {
+    margin-top: 5px;
+    border-right: 1px solid grey;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.income div {
+    font-size: 16px;
+    color: green
+}
+
+.expense {
+    margin-top: 5px;
+    border-right: 1px solid grey;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.expense div {
+    font-size: 16px;
+    color: red;
+}

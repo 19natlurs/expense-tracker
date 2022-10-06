@@ -1,0 +1,90 @@
+.transaction {
+    /* border: 1px solid red; */
+    margin-top: 5%;
+
+}
+
+.history {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.items {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-right: 3px solid blue;
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+
+.itemsy {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-right: 3px solid red;
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+
+.itemsx {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-right: 3px solid green;
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+
+.btn {
+    position: absolute;
+    left: -3%;
+    height: 100%;
+    width: 17px;
+    top: 0;
+    background-color: red;
+    border: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.items:hover .btn {
+    opacity: 1;
+}
+
+@media(max-width: 500px) {
+    .btn {
+        position: absolute;
+        left: -5%;
+        height: 100%;
+        width: 17px;
+        top: 0;
+        background-color: red;
+        border: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .items:hover .btn {
+        opacity: 1;
+    }
+
+
+}

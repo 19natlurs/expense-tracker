@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+
+
+.something {
+    width: 35vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-color: #f7f7f7;
+
+    font: "lato",
+
+}
+
+@media(max-width: 500px) {
+
+    .something {
+        width: 80vw;
+        height: 100vh;
+        /* border: 1px solid red; */
+        background-color: #f7f7f7;
+
+        font: "lato",
+
+    }
+
+}
