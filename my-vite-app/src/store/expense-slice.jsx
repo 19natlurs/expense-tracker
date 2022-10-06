@@ -5,10 +5,7 @@ const expenseSlice = createSlice({
     name: "expense",
     initialState: {
         transactions: [
-            { id: 1, text: "Flower", amount: -20 },
-            { id: 2, text: "Salary", amount: 300 },
-            { id: 3, text: "Book", amount: -10 },
-            { id: 4, text: "Camara", amount: -20 }
+
         ]
     },
     reducers: {
