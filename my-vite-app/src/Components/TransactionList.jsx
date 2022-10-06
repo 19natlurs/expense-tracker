@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import classes from './Transaction.module.css'
 import { useSelector } from "react-redux"
 import { useDispatch } from 'react-redux'
@@ -8,13 +8,20 @@ import { expenseAction } from '../store/expense-slice'
 const TransactionList = () => {
 
     const dispatch = useDispatch()
+    const transactions = useSelector(state => state.expense.transactions)
+
+
+
+
+
+
 
     // const btnHandler = () => {
     //     console.log("delete")
     //     dispatch(expenseAction.deleteTransaction(transactions.id))
     // }
 
-    const transactions = useSelector(state => state.expense.transactions)
+
 
 
 
